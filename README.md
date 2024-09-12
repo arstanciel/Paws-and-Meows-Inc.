@@ -26,12 +26,6 @@ THEN its is saved in a local client storage container.
 
 
 
-
-
-
-
-
-
 ## Grading Requirements
 
 This project is graded based on the following criteria:
