@@ -1,0 +1,54 @@
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 50px;
+  
+}
+
+.header{
+background-color: rgb(77, 152, 96);
+display: block;
+color:white;
+padding: 1.5em 1em 0.4em 1em;
+width: 100%;
+margin: auto;
+}
+.bg-body-tertiary{
+  border-radius: 5px;
+}
+.navbar-brand {
+  font-size: 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+}
+
+
+
+.carousel {
+  background-color: rgb(226, 228, 215)
+}
+
+.carousel-indicators {
+  padding-bottom: 50px;
+}
+
+.carousel-item 
+{
+  padding: auto;
+}
+.carousel-inner{
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 100px;
+  width: 60%;
+  ;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
