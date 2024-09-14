@@ -1,17 +1,13 @@
 h1 {
   font-size: 3rem;
 }
-
-h2 {
-  text-align: center;
-  margin: 50px;
-  
-}
-
 .header{
 background-color: rgb(77, 152, 96);
 display: block;
 color:white;
+/* padding-top:1.5em;
+padding-bottom: 0.4em;
+padding-left: 1em; */
 padding: 1.5em 1em 0.4em 1em;
 width: 100%;
 margin: auto;
@@ -26,7 +22,11 @@ margin: auto;
   font-style:normal;
 }
 
-
+h2 {
+  text-align: center;
+  margin: 50px;
+  
+}
 
 .carousel {
   background-color: rgb(226, 228, 215)
@@ -47,8 +47,8 @@ margin: auto;
   width: 60%;
   ;
 }
-
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
+
