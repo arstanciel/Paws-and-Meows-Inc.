@@ -1,17 +1,16 @@
 h1 {
   font-size: 3rem;
 }
+
 .header{
 background-color: rgb(77, 152, 96);
-display: block;
 color:white;
-/* padding-top:1.5em;
-padding-bottom: 0.4em;
-padding-left: 1em; */
 padding: 1.5em 1em 0.4em 1em;
 width: 100%;
 margin: auto;
 }
+
+
 .bg-body-tertiary{
   border-radius: 5px;
 }
@@ -29,7 +28,8 @@ h2 {
 }
 
 .carousel {
-  background-color: rgb(226, 228, 215)
+  background-color: rgb(226, 228, 215);
+  position: relative;
 }
 
 .carousel-indicators {
@@ -44,11 +44,12 @@ h2 {
   margin: auto;
   padding-top: 10px;
   padding-bottom: 100px;
-  width: 60%;
+  width: 50%;
   ;
 }
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
     filter: invert(100%);
 }
+
 
