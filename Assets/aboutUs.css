@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+
+h1 {
+    font-size: 3rem;
+  }
+  h3 {
+    color: white;
+    text-align: center;
+  }
+  
+  .header{
+  background-color: rgb(77, 152, 96);
+  color:white;
+  padding: 1.5em 1em 0.4em 1em;
+  padding: 5px;
+  width: 100%;
+  margin: auto;
+  }
+  .header p {
+    text-align: center;
+  }
+
+  .hero-banner {
+    background:rgb(197, 224, 204);
+    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    height: 25vh;
+    color: rgb(135, 250, 164);
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+  
+  .hero-banner div {
+    flex: 0 0 90%;
+  }
+  
+  .hero-banner h2 {
+    background-color: var(--secondary);
+    color:  rgb(1, 1, 1);
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 2.3rem;
+    line-height: 1.2;
+    display: inline;
+  }
+
+
+#pet-hero-banner {
+    height: auto;
+    margin-bottom: 20px;
+    display: inline;
+}
+#pet-hero-banner .row{
+    flex-wrap: wrap;
+    min-height: 350px;
+    display: flex;
+}
+#pet-hero-banner .container div{
+    margin-right: 40px;
+}
+.row {
+    position: relative;
+    width: 100%;
+    border: solid;
+    margin:0;
+}
+
+#pet-hero-banner .heading-holder {
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 40px 0px 0px 40px;
+    justify-content: center;
+    max-width: 1440px;
+
+}
+
+#pet-hero-banner h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgb(77, 152, 96);
+    text-decoration: underline;
+}
+
+.header-description {
+    max-width: 450px;
+}
+.header-description p {
+    color:black;
+    font:inherit;
+    vertical-align: baseline;
+}
+#pet-hero-banner div.wd_heading-image {
+    background-position: center center;
+    background-size: cover;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
