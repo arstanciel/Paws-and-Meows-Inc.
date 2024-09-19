@@ -53,4 +53,8 @@ body { font-family: "Roboto", sans-serif; display: flex; justify-content: center
       transform: scale(1);
      } /* Return to normal size */
 
+#result{
+    padding: 20px; 
+
+}
     
