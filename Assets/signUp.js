@@ -16,6 +16,8 @@ localStorage.setItem('password', password);
 signupForm.reset();
 
 resultContainer.textContent = 'Account Successfully Created!';
+resultContainer.style.textAlign= 'center';
+resultContainer.style.color= 'green';
 }
 signupForm.addEventListener('submit', signupSubmission)
 console.log(signupForm);
@@ -28,5 +30,4 @@ window.onload = function() {
     if (storedFullName && storedEmail && storedPassword) {
         resultContainer.textContent = `Welcome back ${storedFullName}`
     }
-    
 }
