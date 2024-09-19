@@ -22,12 +22,17 @@ resultContainer.style.color= 'green';
 signupForm.addEventListener('submit', signupSubmission)
 console.log(signupForm);
 
-window.onload = function() {
-    const storedFullName = localStorage.getItem('fullName');
-    const storedEmail = localStorage.getItem('email');
-    const storedPassword = localStorage.getItem('password');
+signupForm.reset();
 
-    if (storedFullName && storedEmail && storedPassword) {
-        resultContainer.textContent = `Welcome back ${storedFullName}`
-    }
-}
+// window.onload = function() {
+//     const storedFullName = localStorage.getItem('fullName');
+//     const storedEmail = localStorage.getItem('email');
+//     const storedPassword = localStorage.getItem('password');
+
+//     if (storedFullName && storedEmail && storedPassword) {
+//         resultContainer.textContent = `Welcome back ${storedFullName}`
+//     }
+//     resultContainer.style.textAlign= 'center';
+//     resultContainer.style.color= 'green';
+
+// }

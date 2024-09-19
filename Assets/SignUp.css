@@ -56,10 +56,17 @@ body { font-family: "Roboto", sans-serif; display: flex; justify-content: center
      } /* Return to normal size */
 
 
-form p {
+main form p {
     text-align: center;
-    text-decoration:none;
 }
+
+main div p {
+    text-align:center;
+}
+main div p a{
+    text-decoration: none;
+}
+
 form a {
     text-decoration: none;
 }
