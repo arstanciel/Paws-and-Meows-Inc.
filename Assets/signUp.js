@@ -25,7 +25,7 @@ setTimeout(function() {
 
     window.location.href = "index.html";
   
-  }, 4000); // Delay for 3 seconds (3000 milliseconds) 
+  }, 4000); // Delay for 4 seconds (4000 milliseconds) 
   
 }
 
