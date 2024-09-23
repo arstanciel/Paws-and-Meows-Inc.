@@ -1,106 +1,398 @@
-.main{
-    background-color: rgb(226, 228, 215);
+.main {
+  background-color: rgb(226, 228, 215);
+  background-color: #eae4d0;
+  display: flex;
 }
 
-.Aboutus-btn { 
-    background: linear-gradient(45deg, rgb(77, 152, 96), #597659);
-    color: white;
-    font-size: 25px; 
-    padding: 8px 18px;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 2px 4px rgba(0,0,0.2);
-    cursor: pointer;
-    transition: all 0.25s ease;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    margin-top:10px ;
-    margin-left: 10px;
-    gap: 20px;
-  } 
-  
-.Aboutus-btn:hover { background: linear-gradient(45deg, rgb(72, 72, 113), #161717); 
-/* Reverse gradient on hover */ 
-box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Deeper shadow on hover */ transform: scale(1.05);
-/* Slightly enlarge button */ } 
-
-.Aboutus-btn:active { background: linear-gradient(45deg, #004ba0, #004bb2); /* Darken colors on click */ 
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow on active state */ 
-    transform: scale(1);
-    } /* Return to normal size */
-    .header{
-        background-color: rgb(77, 152, 96);
-        color:white;
-        padding: 1.5em 1em 0.4em 1em;
-        padding: 5px;
-        width: 100%;
-        margin: auto;
-        }
-        .header p {
-          text-align: center;
-        }
-.cat-prints {
-    height: 120px;
-    align-items: center;
+.header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px; Optional padding */
+  height: 95px;
 }
+
+.header2 h2 {
+  color: #d0ba71;
+  font-family: fantasy;
+  text-transform: uppercase;
+  /* padding-right:140px; */
+  text-decoration: underline;
+  padding-top: 50px;
+  /* padding-right: 17%; */
+  align-items: center;
+  padding-left: 30%;
+}
+
+#nav {
+  background-color: #d0ba71;
+  width: 100%;
+  height: 65px;
+}
+
+#nav a {
+  display: flex;
+  float: right;
+  text-decoration: none;
+}
+
+.Aboutus-home-btn {
+  background: linear-gradient(45deg, rgb(77, 152, 96), #597659);
+  color: white;
+  font-size: 25px;
+  padding: 7px 10px;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-left: 10px;
+  /* Optional spacing from the title */
+  margin-right: 10px;
+  margin-top: 6px;
+  text-decoration: none;
+}
+
+.Aboutus-btn {
+  background: linear-gradient(45deg, rgb(77, 152, 96), #597659);
+  color: white;
+  font-size: 25px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  gap: 20px;
+}
+
+.Aboutus-btn:hover {
+  background: linear-gradient(45deg, rgb(72, 72, 113), #161717);
+  /* Reverse gradient on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  /* Deeper shadow on hover */
+  transform: scale(1.05);
+  /* Slightly enlarge button */
+}
+
+.Aboutus-btn:active {
+  background: linear-gradient(45deg, #004ba0, #004bb2);
+  /* Darken colors on click */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  /* Reduced shadow on active state */
+  transform: scale(1);
+}
+
+/* Return to normal size */
+.header {
+  background-color: rgb(77, 152, 96);
+  color: white;
+  padding: 1.5em 1em 0.4em 1em;
+  padding: 5px;
+  width: 100%;
+  margin: auto;
+}
+
+.header p {
+  text-align: center;
+}
+
+#cat-prints {
+  position: absolute;
+  z-index: 100;
+  right: 100px;
+  /* top: 48px; */
+  rotate: 49deg;
+  margin-bottom: 2%;
+
+
+}
+
+.pet-prints img {
+  width: 75px;
+}
+
+#cat-prints2 {
+  position: absolute;
+  z-index: 80;
+  left: 145px;
+  /* top: 51px; */
+  rotate: 49deg;
+  height: 94px;
+  margin-bottom: 5%;
+
+
+}
+
+
+#cat-prints3 {
+  position: absolute;
+  z-index: 80;
+  left: 266px;
+  /* top: 51px; */
+  rotate: 49deg;
+  height: 94px;
+  margin-bottom: 5%;
+
+
+}
+
+#cat-prints4 {
+  position: absolute;
+  z-index: 80;
+  right: 215px;
+  /* top: 51px; */
+  rotate: 44deg;
+  height: 94px;
+  margin-bottom: 5%;
+
+
+}
+
 #about-us-motto {
-    text-align: center;
+  text-align: center;
 
 }
-.about-us-container{
-    margin-bottom:40px;
-    clear:both;
+
+.row {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  padding: 5px;
 }
-.about-us-container .row {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    width:100%;
+
+.section-1 {
+  flex: 85%;
+  padding: 20px;
 }
-.about-us-container .heading-holder{
-    align-items: flex-start;
-    padding: 60px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+aside, 
+section {
+  flex: 1 1 50%;
+}
+
+aside {
+  flex: 15%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  padding-top: 55px;
+  font-style: italic;
+  color: linear-gradient(45deg, rgb(77, 152, 96), #597659);
 
 }
-.About-us-title h1{
-    color:rgb(25, 81, 37);
-    text-align:justify;
-    padding-left:15px;
-    font-size: 35px;
-    text-transform: uppercase;
-    text-decoration: underline;
+
+aside h3 {
+  font-style: normal;
+
+}
+
+#store-hours {
+  /* padding-top:4%; */
+  font-size: large;
+  padding-left: 2%;
+  justify-content: space-between;
+  display: block;
+
+}
+
+.store-hour-img {
+  width: 89%;
+  padding: 10px;
+  height: 81px;
+  background-color: rgb(33, 153, 33);
+  padding-top: 5px;
+  border-radius: 5%;
+}
+
+.store-hour-img img {
+  height: 69px;
+  rotate: 0deg;
+}
+
+#store-hours h4,
+h3 {
+  width: 100%;
+  color: #d0ba71;
+  font-style: normal;
+}
+
+.sign-up-btn {
+  background: linear-gradient(45deg, rgb(77, 152, 96), #597659);
+  color: white;
+  font-size: 25px;
+  padding: 0px 18px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0.2);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-top: 10px;
+  margin-right: 25px;
+  gap: 10px;
+  padding-left: 8px;
+}
+article {
+  flex: 1 1 50%;
+  border-radius: 4px;
+  padding: 1rem;
+  position: relative;
+}
+article blockquote {
+  margin: 1rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+article p {
+  position: absolute;
+  left: 1rem;
+  bottom: 0.5rem;
+  opacity: .75;
+}
+ul {
+  list-style: none;
+}
+
+.about-us-container {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  padding: 25px;
+  /* \\border: 5px solid orange; */
+  /* border-radius: 20px; */
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.About-us-title h2 {
+  color: rgb(25, 81, 37);
+  /* text-align:justify; */
+  /* padding-left:15px; */
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .About-us-img {
-    background-position: center center;
-    background-size: cover;
-    max-width: 1140px;
-    margin: 0 auto;
-    float: inline-end;
+  background-position: center center;
+  background-size: cover;
+  max-width: 1140px;
+  margin: 0 auto;
+  float: inline-end;
+
 }
-.About-us-description{
-    text-align: left;
-    max-width: 450px;
-    justify-content: baseline;
+
+.About-us-img-2 {
+  background-position: center center;
+  background-size: cover;
+  max-width: 1140px;
+  margin: 0 auto;
+  float: inline-start;
+
 }
+
+.About-us-description {
+  width: 50%;
+  line-height: 35px;
+
+
+  /* background-color: #91A3b0;; */
+}
+
+.About-us-hist-img {
+  background-position: center center;
+  /* background-size: cover; */
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 20vh;
+  /* float: inline-end; */
+
+}
+
 #About-us-hist-title h3 {
-    text-decoration: underline;
+  font-style: normal;
 
 
-}
-.card{
+  /* }
+.reviews-container{
     font-size:30px;
     color: white;
     background-color: rgb(68, 68, 91);
-    display: flex;
-    flex-direction: inline-block;
-    /* gap: 10px; */
-    width: 100%;
+    /* display: flex;
+    flex-direction: inline-block;  */
+  gap: 10px;
+  width: 100%;
+  text-align: center;
+  height: 19vh;
+}
+
+*/ footer aside div h4 {
+  text-align: center;
+
+}
+
+/* .reviews-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
     text-align: center;
-  }
-  .card ul {
-    list-style:none;
-  }
+
+  } */
+.about-us-history {
+  padding-bottom: 100vh - 20%;
+}
+
+.card {
+  font-size: 30px;
+  color: white;
+  background-color: rgb(68, 68, 91);
+  display: flex;
+  flex-direction: row;
+  /* gap: 10px; */
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.sign-up-btn:hover {
+  background: linear-gradient(45deg, rgb(72, 72, 113), #161717);
+  /* Reverse gradient on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  /* Deeper shadow on hover */
+  transform: scale(1.05);
+  /* Slightly enlarge button */
+}
+
+.sign-up-btn:active {
+  background: linear-gradient(45deg, #004ba0, #004bb2);
+  /* Darken colors on click */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  /* Reduced shadow on active state */
+  transform: scale(1);
+}
+
+/* Return to normal size */
+
+.product-reviews {
+  padding-top: 20%;
+ 
+}
+
+article {
+  flex: 1 1 50%;
+  padding: 1rem;
+  position: relative;
+}
