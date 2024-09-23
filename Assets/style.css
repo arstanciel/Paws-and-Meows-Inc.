@@ -96,6 +96,10 @@ h2 {
   height: 150px;
   justify-content: center;
 }
+.card div {
+  margin-bottom:2%;
+  
+}
 
 
 .Signup-btn { 
@@ -104,7 +108,7 @@ h2 {
   font-size: 30px; 
   padding: 8px 18px;
   border: none;
-  border-radius: 10px;
+  border-radius: 10px; 
   box-shadow: 0px 2px 4px rgba(0,0,0.2);
   cursor: pointer;
   transition: all 0.25s ease;
@@ -125,3 +129,8 @@ h2 {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Reduced shadow on active state */ 
     transform: scale(1);
    } /* Return to normal size */
+
+   .aboutUs1 {
+    max-height: 30vh;
+
+   }
