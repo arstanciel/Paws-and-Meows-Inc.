@@ -96,6 +96,10 @@ h2 {
   height: 150px;
   justify-content: center;
 }
+.card div {
+  margin-bottom:2%;
+  
+}
 
 
 .Signup-btn { 

@@ -21,19 +21,19 @@
         <h1>Explore Us Here</h1>
         <div class="pet-prints">
             <img src="./Assets/Images/catPrints.jpg" id="cat-prints2" alt="cat-prints">
-            <img src="./Assets/Images/catPrints.jpg" id="cat-prints" alt="cat-prints">
-            <img src="./Assets/Images/catPrints.jpg" id="cat-prints3" alt="cat-prints">
-            <img src="./Assets/Images/catPrints.jpg" id="cat-prints4" alt="cat-prints">
+            <!-- <img src="./Assets/Images/catPrints.jpg" id="cat-prints" alt="cat-prints"> -->
+            <!-- <img src="./Assets/Images/catPrints.jpg" id="cat-prints3" alt="cat-prints">
+            <img src="./Assets/Images/catPrints.jpg" id="cat-prints4" alt="cat-prints"> -->
         </div>
     </header>
     <div id="nav">
-        <a href="index.html"><button>HOME</button></a>
+        <a href="index.html"><button class="sign-up-btn">HOME</button></a>
     </div>
     <main class="main">
         <aside id="store-hours">
-            <div class="store-hour-img">
+            <!-- <div class="store-hour-img">
                 <img src="./Assets/Images/findUs.jpg">
-            </div>
+            </div> -->
             <h3>Store Hours</h3>
             <p> Monday-Friday <br>10am-6pm <br> Satarday-Sunday <br> 12pm-5pm</p>
             <h4>Email Alerts</h4>
@@ -41,7 +41,17 @@
                 SPECIAL OFFERS, GREAT DEALS, COUPONS
             </p>
             <a href="SignUp.html"><button class="sign-up-btn">Email Alerts</button></a>
+            <div class=product-reviews id="product-rev">
+                <h3>Product Reviews</h3>
+                <article >
+                    <section>
+                      <blockquote> </blockquote>
+                      <!-- <p> Posted by: </p> -->
+                      <p> Posted by: </p>
+                    </section>
+                  </article>
             </div>
+    </div>
         </aside>
         <section class="section-1">
             <div id="about-us" class="container">
@@ -86,10 +96,19 @@
     <footer>
         <div class="card">
           <div>
-          <a href="SignUp.html"> <button  class="Signup-btn"> Sign Up </button> </a> 
+            <a href="SignUp.html"> <button class="sign-up-btn "> Sign Up </button> </a>
           </div>
-      </footer>
-    
+          <div>
+            <a href="SignUp.html"> <button  class="sign-up-btn "> Pet Services </button> </a> 
+          </div>
+          <div>
+            <a href="SignUp.html"> <button  class="sign-up-btn "> Help Center </button> </a> 
+          </div>
+          <div>
+            <a href="reviewPage.html"> <button  class="sign-up-btn ">Reviews </button> </a> 
+          </div>
+      </footer> 
+      <script defer src=./reviewPage.js type="text/javascript"></script>
+      <script defer src=./aboutUs.js type="text/javascript"></script>
 </body>
-
 </html>
