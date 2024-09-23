@@ -1,5 +1,7 @@
 const signupForm = document.querySelector ('form');
 const resultContainer = document.getElementById('result');
+const spinner = document.getElementById('spinner');
+
 console.log(signupForm);
 function signupSubmission (event) {
     event.preventDefault();
@@ -15,24 +17,29 @@ localStorage.setItem('password', password);
 
 signupForm.reset();
 
-resultContainer.textContent = 'Account Successfully Created!';
+resultContainer.textContent = 'Account Successfully Created! Redirecting you to Home Page';
 resultContainer.style.textAlign= 'center';
 resultContainer.style.color= 'green';
-}
-signupForm.addEventListener('submit', signupSubmission)
-console.log(signupForm);
 
+setTimeout(function() {
+
+    window.location.href = "index.html";
+  
+  }, 4000); // Delay for 4 seconds (4000 milliseconds) 
+  
+}
+
+
+signupForm.addEventListener('submit', signupSubmission)
+
+console.log(signupForm);
 signupForm.reset();
 
-// window.onload = function() {
-//     const storedFullName = localStorage.getItem('fullName');
-//     const storedEmail = localStorage.getItem('email');
-//     const storedPassword = localStorage.getItem('password');
 
-//     if (storedFullName && storedEmail && storedPassword) {
-//         resultContainer.textContent = `Welcome back ${storedFullName}`
-//     }
-//     resultContainer.style.textAlign= 'center';
-//     resultContainer.style.color= 'green';
 
-// }
+
+
+
+
+
+

@@ -33,9 +33,15 @@ const signinForm = function(event) {
     
 
     if(storedEmail === Inemail && storedPassword === Inpassword) {
-    resultContainer.textContent = `Welcome back ${storedFullName}`;
+    resultContainer.textContent = `Welcome back ${storedFullName}, redirectng you to your account Home Page`;
     resultContainer.style.color= 'green';
     signupForm.reset();
+    setTimeout(function() {
+
+        window.location.href = "index.html";
+      
+      }, 3000); // Delay for 4 seconds (3000 milliseconds) 
+      
     return;
          }
     else {
