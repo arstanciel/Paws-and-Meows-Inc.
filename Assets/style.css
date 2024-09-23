@@ -53,7 +53,7 @@ h2 {
   padding-top: 10px;
   padding-bottom: 100px;
   width: 50%;
-  ;
+
 }
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
@@ -79,7 +79,7 @@ h2 {
 }
 
 #dogIcon{
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .card{
