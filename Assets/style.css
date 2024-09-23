@@ -79,7 +79,7 @@ h2 {
 }
 
 #dogIcon{
-  transform: rotateY(180deg);
+  transform: rotateX(180deg);
 }
 
 .card{
